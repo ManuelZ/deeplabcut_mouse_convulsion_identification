@@ -1,0 +1,3 @@
+This mini-project aims to automatically detect the onset of convulsions in mice using the DeepLabCut software in video recordings.
+
+The "superanimal_topviewmouse" model, trained on top-down views of mice, is employed for identification. This model outputs per-body-part likelihood scores. It is hypothesized that the violent twitches characteristic of convulsions will cause significant fluctuations in these likelihood scores across consecutive frames, enabling to pinpoint the seizure's start.
